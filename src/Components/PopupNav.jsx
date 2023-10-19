@@ -1,6 +1,8 @@
 import Logo from "./logo";
 import { useRef } from "react";
-import logo1 from '../Images/logoQ.png';
+import menu from '../Images/hamburger20.png'
+import Menu1 from './hamburger'
+
 
 const PopupNav = () => {
   const componentRef = useRef(null);
@@ -13,16 +15,12 @@ const PopupNav = () => {
             <Logo />
             <div className="responsive font-semibold flex gap-4"></div>
 
-            {/* Use a div for the transparent overlay */}
+            
             <div className="absolute inset-0 bg-black opacity-10"></div>
 
-            <div className="relative z-10 bg-black">
-              <img
-                src={logo1}
-                alt="profileImg"
-                className="w-[1.3rem] h-[1.4rem]"
-              />
-              {/* Add more navigation items or content here */}
+            <div className="relative z-10 ">
+            <Menu1/>
+             
             </div>
           </div>
         </div>
