@@ -2,8 +2,9 @@ import Nav from '../Components/PopupNav'
 
 const Home = () => {
   return (
-    <div>
+    <div className=' bg-red'>
       <Nav/>
+      
     </div>
   )
 }
