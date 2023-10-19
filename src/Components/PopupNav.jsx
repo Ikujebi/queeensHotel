@@ -7,9 +7,9 @@ const PopupNav = () => {
 
   return (
     <div ref={componentRef} className="mb-[5rem] text-[#100A42]">
-      <nav className="bg-transparent py-4 w-full top-0 fixed h-[6rem] z-10 flex shadow-md hover:shadow-xl px-[3rem] hover:bg-blue-100">
-        <div className="container mx-auto">
-          <div className="flex items-center">
+      <nav className="bg-transparent py-4 w-full top-0 fixed h-[6rem] z-10 flex shadow-md hover:shadow-xl  hover:bg-blue-100">
+        <div className="container ">
+          <div className="flex items-center justify-around">
             <Logo />
             <div className="responsive font-semibold flex gap-4"></div>
 
