@@ -1,0 +1,11 @@
+.bg{
+    background-image: url("https://queenscourthotel.ng/wp-content/uploads/2023/10/OPENING-1.mp4");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1
+
+} 
