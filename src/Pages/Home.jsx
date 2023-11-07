@@ -1,5 +1,5 @@
 import Nav from '../Components/PopupNav'
-
+import cookie from '../Images/revisitQueens.png'
 
 const Home = () => {
 
@@ -26,34 +26,31 @@ const promises =[
         <div className="absolute w-full h-screen opacity-70 bg-black top-0"></div>
       <Nav/>
 
-    <div  className=' ml-[3rem] absolute inset-0 flex flex-col mt-[20rem] items-center text-white'>
-      <div id='text ' className=' text-[2.4rem]'>
+    <div  className='  absolute inset-0 flex flex-col mt-[20rem] items-center text-white'>
+      <div id='text ' className=' text-[2.4rem] mb-[5rem]'>
         <h2 >Enjoy Comfort And Luxury Uncompromised</h2>
+        <img src={cookie} alt="cookie" />
       </div>
 
-      <div className=' flex'>
+      <div className=' grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-9 mx-auto w-[78%]'>
         <div className='  '>
-        <h2>Class</h2>
-        <p classsName=' font-thin text-red-300'>We offer our visitors the best class in hospitality
+        <h2 className=' font-bold text-[1.1rem] mb-6'>Class</h2>
+        <p className=' font-medium text-[1rem]  text-[rgba(255,255,255,0.65)]'>We offer our visitors the best class in hospitality
            service from reception to their departure with 
            memoirs to treasure.</p>
            </div>
         <div className=' '>
-        <h2>Comfort</h2>
-        <p>We go the extra distance to ensure that your stay
+        <h2 className=' font-bold text-[1.1rem] mb-6'>Comfort</h2>
+        <p className=' font-medium text-[1rem] text-[rgba(255,255,255,0.65)]'>We go the extra distance to ensure that your stay
          is defined by a comfortable experience.</p>
            </div>
         <div className=' '>
-        <h2>Class</h2>
-        <p >We offer our visitors the best class in hospitality
-           service from reception to their departure with 
-           memoirs to treasure.</p>
+        <h2 className=' font-bold text-[1.1rem] mb-6'>Relaxation</h2>
+        <p className=' font-medium text-[1rem] text-[rgba(255,255,255,0.65)]'>Top notch relaxation facilities in our complex including lounge, bars, pool, restaurant, etc.</p>
            </div>
         <div className=' '>
-        <h2>Class</h2>
-        <p>We offer our visitors the best class in hospitality
-           service from reception to their departure with 
-           memoirs to treasure.</p>
+        <h2 className=' font-bold text-[1.1rem] mb-6'>Customer Care</h2>
+        <p className=' font-medium text-[1rem] text-[rgba(255,255,255,0.65)]'>Our team are products of top hospitality academies to offer you nothing but the best.</p>
            </div>
       </div>
       </div>
