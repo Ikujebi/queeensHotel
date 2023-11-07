@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media (max-width: 600px) {
+    .flexy {
+      flex-wrap: nowrap; /* Prevent flex items from wrapping at or below 600px */
+    }
+  }

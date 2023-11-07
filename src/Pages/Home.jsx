@@ -31,10 +31,10 @@ const promises =[
         <h2 >Enjoy Comfort And Luxury Uncompromised</h2>
       </div>
 
-      <div>
-        <div className=' '>
+      <div className=' flex'>
+        <div className='  '>
         <h2>Class</h2>
-        <p classsName=' '>We offer our visitors the best class in hospitality
+        <p classsName=' font-thin text-red-300'>We offer our visitors the best class in hospitality
            service from reception to their departure with 
            memoirs to treasure.</p>
            </div>
@@ -45,7 +45,7 @@ const promises =[
            </div>
         <div className=' '>
         <h2>Class</h2>
-        <p>We offer our visitors the best class in hospitality
+        <p >We offer our visitors the best class in hospitality
            service from reception to their departure with 
            memoirs to treasure.</p>
            </div>
